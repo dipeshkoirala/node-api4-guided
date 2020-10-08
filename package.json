@@ -1,7 +1,8 @@
+
 {
 	"private": true,
 	"scripts": {
-		"watch": "cross-env COHORT=webpt18 nodemon index.js",
+		"watch": " cross-env COHORT=webpt18 nodemon index.js",
 		"start": "node index.js"
 	},
 	"devDependencies": {

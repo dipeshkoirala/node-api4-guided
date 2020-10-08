@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"scripts": {
-		"start": " nodemon --require detenv/config index.js"
+		"start": "nodemon --require detenv/config index.js"
 		
 	},
 	"devDependencies": {

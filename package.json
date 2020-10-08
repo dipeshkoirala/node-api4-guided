@@ -1,9 +1,8 @@
-
 {
 	"private": true,
 	"scripts": {
-		"watch": " cross-env COHORT=webpt18 nodemon index.js",
-		"start": "node index.js"
+		"start": " nodemon --require detenv/config index.js"
+		
 	},
 	"devDependencies": {
 		"cross-env": "^7.0.2",
